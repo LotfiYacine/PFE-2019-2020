@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="@string/PREFERENCE_VW_strategies">
+        <CheckBoxPreference android:title="@string/PREFERENCE_VW_Tap_title"
+            android:key="@string/PREFERENCE_VW_Tap_key"
+            android:summary="@string/PREFERENCE_VW_Tap_summary"
+            android:defaultValue="@bool/PREFERENCE_VW_Tap_default"
+            />
+        <CheckBoxPreference android:title="@string/PREFERENCE_VW_insistence_title"
+            android:key="@string/PREFERENCE_VW_insistence_key"
+            android:summary="@string/PREFERENCE_VW_insistence_summary"
+            android:defaultValue="@bool/PREFERENCE_VW_insistence_default"
+            />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/PREFERENCE_VR_application_category_title">
+        <EditTextPreference android:title="@string/PREFERENCE_VR_app_package_title"
+            android:key="@string/PREFERENCE_VR_app_package_key"
+            android:summary="@string/PREFERENCE_VR_app_package_summary"
+            android:defaultValue="@string/PREFERENCE_VR_app_package_default"
+            />
+        <CheckBoxPreference android:title="@string/PREFERENCE_head_log_title"
+            android:key="@string/PREFERENCE_head_log_key"
+            android:summary="@string/PREFERENCE_head_log_summary"
+            android:defaultValue="@bool/PREFERENCE_head_log_default"
+            />
+        <CheckBoxPreference android:title="@string/PREFERENCE_bandwidth_log_title"
+            android:key="@string/PREFERENCE_bandwidth_log_key"
+            android:summary="@string/PREFERENCE_bandwidth_log_summary"
+            android:defaultValue="@bool/PREFERENCE_bandwidth_log_default"
+            />
+        <CheckBoxPreference android:title="@string/PREFERENCE_freezing_log_title"
+            android:key="@string/PREFERENCE_freezing_log_key"
+            android:summary="@string/PREFERENCE_freezing_log_summary"
+            android:defaultValue="@bool/PREFERENCE_freezing_log_default"
+            />
+        <CheckBoxPreference android:title="@string/PREFERENCE_snapchange_log_title"
+            android:key="@string/PREFERENCE_snapchange_log_key"
+            android:summary="@string/PREFERENCE_snapchange_log_summary"
+            android:defaultValue="@bool/PREFERENCE_snapchange_log_default"
+            />
+        <CheckBoxPreference android:title="@string/PREFERENCE_quality_log_title"
+                            android:key="@string/PREFERENCE_quality_log_key"
+                            android:summary="@string/PREFERENCE_quality_log_summary"
+                            android:defaultValue="@bool/PREFERENCE_quality_log_default"
+            />
+        <CheckBoxPreference android:title="@string/PREFERENCE_replacement_log_title"
+                            android:key="@string/PREFERENCE_replacement_log_key"
+                            android:summary="@string/PREFERENCE_replacement_log_summary"
+                            android:defaultValue="@bool/PREFERENCE_replacement_log_default"
+            />
+        <CheckBoxPreference android:title="@string/PREFERENCE_realtime_log_title"
+            android:key="@string/PREFERENCE_realtime_log_key"
+            android:summary="@string/PREFERENCE_realtime_log_summary"
+            android:defaultValue="@bool/PREFERENCE_realtime_log_default"
+            />
+        <EditTextPreference android:title="@string/PREFERENCE_server_IP_title"
+            android:key="@string/PREFERENCE_server_IP_key"
+            android:summary="@string/PREFERENCE_server_IP_summary"
+            android:defaultValue="@string/PREFERENCE_server_IP_default"
+            />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/PREFERENCE_video_list_category_title">
+        <EditTextPreference android:title="@string/PREFERENCE_local_list_title"
+            android:key="@string/PREFERENCE_local_list_key"
+            android:summary="@string/PREFERENCE_local_list_summary"
+            android:defaultValue="@string/PREFERENCE_local_list_default"
+            />
+        <EditTextPreference android:title="@string/PREFERENCE_remote_list_title"
+            android:key="@string/PREFERENCE_remote_list_key"
+            android:summary="@string/PREFERENCE_remote_list_summary"
+            android:defaultValue="@string/PREFERENCE_remote_list_default"
+        />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/PREFERENCE_exoplayer_params_category_title">
+        <EditTextPreference android:title="@string/PREFERENCE_startup_buffer_title"
+            android:key="@string/PREFERENCE_startup_buffer_key"
+            android:summary="@string/PREFERENCE_startup_buffer_summary"
+            android:defaultValue="@integer/PREFERENCE_startup_buffer_default"
+            android:inputType="number"
+            />
+        <EditTextPreference android:title="@string/PREFERENCE_rebuffering_buffer_title"
+        android:key="@string/PREFERENCE_rebuffering_buffer_key"
+        android:summary="@string/PREFERENCE_rebuffering_buffer_summary"
+        android:defaultValue="@integer/PREFERENCE_rebuffering_buffer_default"
+        android:inputType="number"
+        />
+        <EditTextPreference android:title="@string/PREFERENCE_min_buffer_title"
+            android:key="@string/PREFERENCE_min_buffer_key"
+            android:summary="@string/PREFERENCE_min_buffer_summary"
+            android:defaultValue="@integer/PREFERENCE_min_buffer_default"
+            android:inputType="number"
+            />
+        <EditTextPreference android:title="@string/PREFERENCE_max_buffer_title"
+            android:key="@string/PREFERENCE_max_buffer_key"
+            android:summary="@string/PREFERENCE_max_buffer_summary"
+            android:defaultValue="@integer/PREFERENCE_max_buffer_default"
+            android:inputType="number"
+            />
+        <CheckBoxPreference android:title="@string/PREFERENCE_deactivate_replacement"
+                            android:key="@string/PREFERENCE_deactivate_replacement_key"
+                            android:summary="@string/PREFERENCE_deactivate_replacement_summary"
+                            android:defaultValue="@bool/PREFERENCE_deactivate_replacement_default"
+            />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/PREFERENCE_tiling_category_title">
+        <EditTextPreference android:title="@string/PREFERENCE_grid_width_title"
+            android:key="@string/PREFERENCE_grid_width_key"
+            android:summary="@string/PREFERENCE_grid_width_summary"
+            android:defaultValue="@integer/PREFERENCE_grid_width_default"
+            android:inputType="number"
+            />
+        <EditTextPreference android:title="@string/PREFERENCE_grid_height_title"
+            android:key="@string/PREFERENCE_grid_height_key"
+            android:summary="@string/PREFERENCE_grid_height_summary"
+            android:defaultValue="@integer/PREFERENCE_grid_height_default"
+            android:inputType="number"
+            />
+        <EditTextPreference android:title="@string/PREFERENCE_tiling_title"
+            android:key="@string/PREFERENCE_tiling_key"
+            android:summary="@string/PREFERENCE_tiling_summary"
+            android:defaultValue="@string/PREFERENCE_tiling_default"
+            />
+        <EditTextPreference android:title="@string/PREFERENCE_dynamic_title"
+                            android:key="@string/PREFERENCE_dynamic_key"
+                            android:summary="@string/PREFERENCE_dynamic_summary"
+                            android:defaultValue="@string/PREFERENCE_dynamic_default"
+            />
+    </PreferenceCategory>
+</PreferenceScreen>
